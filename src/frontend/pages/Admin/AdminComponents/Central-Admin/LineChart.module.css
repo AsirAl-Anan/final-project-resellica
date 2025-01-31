@@ -1,0 +1,26 @@
+.chart {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .marketingLine {
+    fill: none;
+    stroke: #ffa726;
+    stroke-width: 2;
+  }
+  
+  .onlineLine {
+    fill: none;
+    stroke: #00897b;
+    stroke-width: 2;
+  }
+  
+  .marketingDot {
+    fill: #ffa726;
+  }
+  
+  .onlineDot {
+    fill: #00897b;
+  }
+  
+  

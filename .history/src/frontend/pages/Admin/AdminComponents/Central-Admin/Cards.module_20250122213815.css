@@ -1,0 +1,160 @@
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cardHeader h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .viewAll {
+    color: #00897b;
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+  
+  /* Product List Styles */
+  .productList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .productItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .productInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .productImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .productId {
+    color: #6c757d;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .productName {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  
+  .productPrice {
+    color: #00897b;
+    font-weight: 600;
+  }
+  
+  .productMetrics {
+    text-align: right;
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  .productMetrics span {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* User List Styles */
+  .userList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .userItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .userAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .userName {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  
+  .userLocation {
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  .moreButton {
+    background: none;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  /* Activity List Styles */
+  .activityList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .activityItem {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .activityInfo {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .activityAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .activityText {
+    margin-bottom: 0.25rem;
+  }
+  
+  .activityTime {
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  

@@ -1,0 +1,16 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  esbuild: {
+    loader: 'file', // Use the file loader for .html files
+    include: /\.(html)$/, // Specify .html files
+  },
+  resolve: {
+    alias: {
+      '@mswjs/interceptors/presets/node': '@mswjs/interceptors/lib/presets/node',
+    },
+  },
+})
